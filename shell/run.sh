@@ -14,6 +14,7 @@ echo "4.文件拷贝 "
 	cp  ~/dataoke/conf/nginx.conf /etc/nginx/
 	cp -rf ~/dataoke/cert /etc/nginx
 	sed -i "s/apache/nginx/g" /etc/php-fpm.d/www.conf
+	mv /usr/share/nginx/html/index.html /usr/share/nginx/html/index.html.1 
 
 echo "5.更改html目录所有权" 
 	chown -R nginx:nginx /usr/share/nginx/html
