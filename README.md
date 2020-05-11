@@ -1,2 +1,2 @@
 # dataoke
-1.Dataoke is a platform for shopping.
+Dataoke is a guide platform for shopping.
