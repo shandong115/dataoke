@@ -38,4 +38,9 @@ Dataoke is a guide platform for shopping. <br>
 	
 	systemctl disable aliyun
 
+## 更简单的安装操作：
+	yum install -y git
+	git clone https://github.com/shandong115/dataoke.git
+	bash dataoke/shell/run.sh
+
 骚年，开启你的购物之旅吧 ---> [点这里](https://zhaolixing.com)
