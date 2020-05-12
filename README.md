@@ -4,6 +4,7 @@ Dataoke is a guide platform for shopping. <br>
 	1.大淘客在后台配置完成后，下载index.php文件. 
 	2.阿里云香港B区主机（centos7.0 英文版官方镜像) 
 	3.域名 + CA证书
+	4.云主机的IP已经配置到域名解析
 ## 二.在云主机操作如下：
 	1.安装php 
 	yum install -y php php-fpm php-gd php-mbstring php-mcrypt
