@@ -22,10 +22,12 @@ Dataoke is a guide platform for shopping. <br>
 
 ## 四.启动服务
 	1.文件拷贝 
-	cp /etc/nginx/nginx.conf /etc/nginx/nginx.conf.old
+	mv /etc/nginx/nginx.conf /etc/nginx/nginx.conf.old
 	cp ~/dataoke/html/* /usr/share/nginx/html/
 	cp  ~/dataoke/conf/nginx.conf /etc/nginx/
 	cp -rf ~/dataoke/cert /etc/nginx
+	sed -i "s/apache/nginx/g" /etc/php-fpm.d/www.conf
+	mv /usr/share/nginx/html/index.html /usr/share/nginx/html/old.html 
 
 	2.更改html目录所有权 
 	chown -R nginx:nginx /usr/share/nginx/html
