@@ -29,4 +29,4 @@ echo "7.添加自启动项 "
 	
 	systemctl disable aliyun
 
-echo "骚年，开启你的购物之旅吧 ---> [点这里](https://zhaolixing.com)"
+echo "骚年，开启你的购物之旅吧 ---> [点这里](http://zhaolixing.com)"

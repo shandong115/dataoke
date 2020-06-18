@@ -49,4 +49,4 @@ Dataoke is a guide platform for shopping. <br>
 
 	yum install -y git;git clone https://github.com/shandong115/dataoke.git > setup.txt;bash dataoke/shell/run.sh >> setup.txt
 
-骚年，开启你的购物之旅吧 ---> [点这里](https://zhaolixing.com)
+骚年，开启你的购物之旅吧 ---> [点这里](http://zhaolixing.com)
